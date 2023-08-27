@@ -20,7 +20,7 @@ public class StockPBRatio {
 		int j = 0;
 		Map<String, String> stock = new HashMap<String, String>();
 		Map<String, String> stockPB = new HashMap<String, String>();
-		String pathString = "C:\\Users\\nayin\\Downloads\\ind_nifty50list.csv";
+		String pathString = "Paste the path to Nifty50 CSV file downloaded in your computer";
 
 		try {
 			Stock stockClass = new Stock(pathString);
